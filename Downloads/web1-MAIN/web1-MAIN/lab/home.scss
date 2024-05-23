@@ -1,0 +1,80 @@
+@charset "UTF-8";
+/* Reset default margin and padding */
+body, h1, h2, h3, ul {
+  margin: 0;
+  padding: 0;
+}
+
+/* Basic styling */
+body {
+  font-family: Arial, sans-serif;
+  line-height: 1.6;
+  color: #333; /* Змінив колір тексту */
+  background-color: #0000002a;
+}
+
+header {
+  background-color: #333;
+  color: #fff;
+  padding: 20px;
+}
+
+header h1 {
+  margin: 0;
+  font-size: 24px; /* Збільшив розмір заголовку */
+}
+
+nav ul {
+  list-style-type: none;
+}
+
+nav ul a {
+  color: #fff;
+  text-decoration: none;
+  margin-right: 10px;
+}
+
+main {
+  padding: 20px;
+}
+
+#courses {
+  text-align: center;
+}
+
+#courses h3 {
+  color: #333; /* Змінив колір заголовку курсів */
+  font-size: 25px; /* Збільшив розмір заголовку курсів */
+  margin-bottom: 20px; /* Додав відступ вниз для заголовку курсів */
+}
+
+#courses ul {
+  list-style-type: none;
+  display: inline-block;
+  padding: 50px;
+  background-color: #f4f4f4; /* Змінив колір фону блоку курсів */
+  color: #333; /* Змінив колір тексту курсів */
+  border-radius: 10px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Додав тінь для блоку курсів */
+  font-size: 18px;
+}
+
+footer {
+  background-color: #333;
+  color: #fff;
+  padding: 10px 20px;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  text-align: center;
+}/*# sourceMappingURL=home.css.map */
+
+h2{
+  padding: 10px;
+  font-size: 40px;
+}
+
+#courses ul a {
+  color: #000000;
+  text-decoration: none;
+}
